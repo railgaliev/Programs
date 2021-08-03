@@ -4,11 +4,11 @@ public class program1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Cathet a: ");
-        double a = in.nextDouble();
+        int a = in.nextInt();
         System.out.print("Cathet b: ");
-        double b = in.nextDouble();
+        int b = in.nextInt();
         System.out.print("Hypotenuse с: ");
-        System.out.print("%.2f"+Math.sqrt(a*a+b*b));
+        System.out.printf("%.2f", Math.sqrt(a*a+b*b));
         in.close();
     }
 }
